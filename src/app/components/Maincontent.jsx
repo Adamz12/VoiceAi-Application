@@ -3,6 +3,9 @@ import React from "react";
 import "@babel/polyfill";
 import Clicktotranscribe from "./Clicktotranscribe";
 import { FaLongArrowAltRight, FaMicrophone } from "react-icons/fa";
+import SpeechRecognition, {
+  useSpeechRecognition,
+} from "react-speech-recognition";
 
 const Maincontent = ({ transcript, listening, resetTranscript }) => {
   return (
